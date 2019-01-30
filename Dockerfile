@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 ARG ID=AAA
 ARG NUM=000
 
-WORKDIR $HOME
+WORKDIR /root/home
 
 RUN mkdir -p $ID-$NUM
 
