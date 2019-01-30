@@ -8,7 +8,10 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn -B'
+                sh 'echo begin test...'
+                sh 'echo the id is $ID and the number is $NUM'
+                sh 'ls -al'
+                sh 'echo finsh test...'
             }
         }
     }
