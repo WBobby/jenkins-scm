@@ -8,7 +8,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn -B'
+                sh 'echo begin test...'
+                sh 'ls -al'
+                sh 'echo finsh test...'
             }
         }
     }
