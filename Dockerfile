@@ -1,4 +1,4 @@
-FROM ubuntu16.04
+FROM ubuntu:16.04
 
 ARG ID=AAA
 ARG NUM=000
