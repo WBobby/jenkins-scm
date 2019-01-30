@@ -10,7 +10,13 @@ pipeline {
             steps {
                 sh 'echo begin test...'
                 sh 'echo the id is $ID and the number is $NUM'
+                sh 'pwd'
                 sh 'ls -al'
+                sh 'cd /root'
+                sh 'ls -al'
+                sh 'cd home/'
+                sh 'ls -al'
+                
                 sh 'echo finsh test...'
             }
         }
